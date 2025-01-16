@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust programming: using the unwrap() method without checking for errors. The code attempts to access an element in a vector using an index that might be out of bounds. This can lead to a program crash.  The solution shows how to handle this potential error gracefully using match or if let.
